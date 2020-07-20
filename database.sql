@@ -1,3 +1,5 @@
+-- psql -h 127.0.0.1 -U actix actix < database.sql 
+
 drop table if exists todo_item;
 drop table if exists todo_list;
 

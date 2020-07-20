@@ -1,0 +1,5 @@
+GET http://localhost:8080
+GET http://localhost:8080/todos
+POST http://localhost:8080/todos
+Content-Type: application/json
+@vegeta.json
